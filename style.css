@@ -1,0 +1,43 @@
+ol {
+    background: radial-gradient(ellipse closest-side,
+    red, yellow 10%, #1e90ff 50%, beige);
+}
+
+i {
+    font-family: sans-serif;
+    color: brown;
+}
+
+main { /*Селектор тега*/
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.li1 {
+    font-size: 42px;
+}
+
+ol > li > div > span > ol { /*Дочерний селектор*/
+    color: cornflowerblue;
+}
+
+ol span li { /*Контекстный селектор*/
+    color: cornflowerblue;
+}
+
+.custom-li { /*Селектор класса*/
+    font-weight: 900;
+    font-family: Arial;
+}
+
+#my-original { /*Селектор класса*/
+    font-size: 10px;
+}
+
+.awesome-div {
+    font-size: 3px;
+}
+
+.awesome-div > span {
+    font-size: 10vh; /* 100vw = 100% height window */ /* 100vw = 100% width window */ /* 1em = 100% */ /* 1rem = 100% HTML */
+}
